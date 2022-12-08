@@ -6,10 +6,10 @@ matcher_editor.tmp_conditions = { };
 matcher_editor.form_meta = {
     'Header':[
         {
-            'group_name':'Name of header want to test',
+            'group_name':'想要测试的头部名称',
             'input':[
                 {
-                    'title':'operator',
+                    'title':'操作',
                     'name':'name_operator',
                     'type':"select",
                     'options':{
@@ -21,7 +21,7 @@ matcher_editor.form_meta = {
                     }
                 },
                 {
-                    'title':'value',
+                    'title':'值',
                     'name':'name_value',
                     'type':'input',
                     'placeholder':'',
@@ -29,10 +29,10 @@ matcher_editor.form_meta = {
             ]
         },
         {
-            'group_name':'value of header',
+            'group_name':'头部值',
             'input':[
                 {
-                    'title':'operator',
+                    'title':'操作',
                     'name':'operator',
                     'type':"select",
                     'options':{
@@ -45,7 +45,7 @@ matcher_editor.form_meta = {
                     }
                 },
                 {
-                    'title':'value',
+                    'title':'值',
                     'name':'operator',
                     'name':'value',
                     'type':'input',
