@@ -73,7 +73,7 @@ dashboard.try_recover_login = function(){
 dashboard.start = function(){
     dashboard.switch_to_interface('dashboard');
     config.get_config();
-    dashboard.notify("Login Success");
+    dashboard.notify("登录成功");
     window.setTimeout( monitor.build_chart, 0 );
     window.setTimeout( monitor.start, 0 );
 }
